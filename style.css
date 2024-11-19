@@ -135,9 +135,9 @@ html, body {
     .navbar .menu-list li a{
         font-size: 23px;
     }
+
+    .section-two { padding: 10px 20px; }
 }
-
-
 
 .section-main {
     position: relative;
@@ -159,6 +159,7 @@ html, body {
         text-transform: uppercase;
         letter-spacing: 2px;
         line-height: 80px;
+        text-align: center;
     }
 
 /*FOOTER*/
@@ -324,7 +325,7 @@ footer {
 }
 
 
-/* Responsive Anpassungen für Tablets (max-width: 768px) */
+/* Responsive Anpassungen fï¿½r Tablets (max-width: 768px) */
 @media (max-width: 768px) {
     .sec-01 {
         padding: 20px 50px;
@@ -347,9 +348,11 @@ footer {
         text-align: center;
         margin-left: 150px;
     }
+
+
 }
 
-/* Responsive Anpassungen für Smartphones (max-width: 480px) */
+/* Responsive Anpassungen fï¿½r Smartphones (max-width: 480px) */
 @media (max-width: 480px) {
     .sec-01 {
         padding: 20px 20px;
@@ -409,6 +412,7 @@ footer {
         border: 1px solid rgba(255,255,255,0.1);
         border-radius: 10px;
         transform: translate(-80px, 50px);
+        margin-bottom : 200px;
     }
 
         .content .text-box h3 {
@@ -471,15 +475,11 @@ footer {
         }
 
 
-
-
-
-
-
 .section-two {
     min-height: 75vh;
     background: #001018;
     padding: 20px 100px;
+    text-align: center;
 }
 
     .section-two h2 {
@@ -617,8 +617,7 @@ footer {
 }
 
 .gridContainer {
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding: 50px;
     /*background: #001018;*/
     display: grid;
     grid-gap: 50px;
