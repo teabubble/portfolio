@@ -347,6 +347,7 @@ footer {
     .text-box {
         text-align: center;
         margin-left: 150px;
+		display: flex;
     }
 
 
@@ -373,7 +374,7 @@ footer {
     .text-box {
         font-size: 0.9em;
         position: relative;
-        display: flex;
+       
     }
 }
 
