@@ -10,7 +10,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Verhindert den horizontalen Scrollbalken */
+    overflow-x: hidden; /* important for : no horizontal scrollbar */
 }
 
 .navcontent {
@@ -164,9 +164,8 @@ html, body {
 
 /*FOOTER*/
 
-
 footer {
-    position: sticky; /* MAXIMALE TRIGGERUNG, STICKY RESPONSIVE ALLES COOL,  */
+    position: sticky; /* sticky = goody */
     width: 100%;
     background: #3586ff;
     min-height: 100px;
@@ -325,7 +324,7 @@ footer {
 }
 
 
-/* Responsive Anpassungen f�r Tablets (max-width: 768px) */
+/* Responsive 768*/
 @media (max-width: 768px) {
     .sec-01 {
         padding: 20px 50px;
@@ -353,7 +352,7 @@ footer {
 
 }
 
-/* Responsive Anpassungen f�r Smartphones (max-width: 480px) */
+/* Responsive 480*/
 @media (max-width: 480px) {
     .sec-01 {
         padding: 20px 20px;
@@ -496,10 +495,8 @@ footer {
         margin: 30px 0;
     }
 
-
-
 /*Cards*/
-/**/
+
 .cardContainer {
     position: relative;
     display: flex;
@@ -559,9 +556,6 @@ footer {
             color: #fff;
             box-shadow: 5px 5px 15px rgba(0,0,0,0.25), inset -3px -3px 5px rgba(0,0,0,0.5);
         }
-
-
-
 
         .cardContainer .card .cardContent {
             margin-top: 20px;
@@ -674,4 +668,3 @@ footer {
         filter: grayscale(1);
         opacity: 0.5;
     }
-

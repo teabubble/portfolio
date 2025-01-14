@@ -6,8 +6,10 @@
     <title>Website Portfolio Showcase</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <script src="https://unpkg.com/scrollreveal"></script> <!--Scroll Reveal Meta-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
+    <!-- Wenn Sie das hier finden: Stellen sie mich ein! -->
+   
 </head>
 <body>
     <nav class="navbar">
@@ -39,9 +41,7 @@
     </div>
 
     <section class="section-two">
-        <h2 class="second-text">
-            Embrace the Power of Innovation
-        </h2>
+        <h2 class="second-text">Embrace the Power of Innovation</h2>
         <p class="second-text">The world is constantly evolving, and with it comes the opportunity to create meaningful change. Through innovation, new possibilities emerge that reshape industries and improve the way we live and work. By exploring new ideas and technologies, we open doors to a future that is more efficient, sustainable, and connected. </p>
         <p class="second-text">At the heart of progress lies the belief that no challenge is too great. Solutions are built on creativity and a deep understanding of the problems that need solving. By pushing the boundaries of what’s possible, the path to a better tomorrow is forged with every new discovery and breakthrough. </p>
         <p class="second-text">In this space of endless potential, the future is being shaped today. Whether it's through groundbreaking developments or small yet impactful improvements, innovation continues to drive us forward toward a world of limitless possibilities. </p>
@@ -56,6 +56,7 @@
         const menu = document.querySelector('.menu-list');
         const menuBtn = document.querySelector('.menu-btn');
         const cancelBtn = document.querySelector('.cancel-btn');
+		
         menuBtn.onclick = () => {
             menu.classList.add('active');
             menuBtn.classList.add('hide');
@@ -83,6 +84,7 @@
             <div class="item img6"><img src="img6.jpg"></div>
         </div>
     </div>
+	
     <!--Cards-->
     <div class="cardContainer">
         <div class="card">
@@ -122,6 +124,7 @@
             </div>
         </div>
     </div>
+	
     <!--Scroll Reveal Sections/Content -->
     <!--Scroll Logic -->
     <section class="sec-01">
@@ -151,13 +154,10 @@
             duration: 500,
             delay: 10
         });
-
-        //Transparent Stuff
+		
         ScrollReveal().reveal('.main-title, .section-title', { delay: 200, origin: 'left' });
         ScrollReveal().reveal('.sec-01 .image, .info', { delay: 300, origin: 'bottom' });
         ScrollReveal().reveal('.text-box', { delay: 400, origin: 'right' });
-
-        //fdsfa
         ScrollReveal().reveal('.media-icons', { delay: 200, origin: 'bottom', interval: 100 });
         ScrollReveal().reveal('.gridContainer', { delay: 200, origin: 'bottom', interval: 100 });
         ScrollReveal().reveal('.card', { delay: 200, origin: 'bottom', interval: 100 });
@@ -166,7 +166,9 @@
         ScrollReveal().reveal('.third-text', { delay: 200, origin: 'bottom', interval: 100 });
 
     </script>
+	
     <!-- Responsive Animated Wave Footer -->
+	
     <footer>
         <div class="waves">
             <div class="wave" id="wave1"></div>
@@ -188,7 +190,7 @@
             <li><a href="#">Contact</a></li>
         </ul>
         <p>
-            © 2024 Chris Portfolio. All Rights Reserved.
+            © 2025 Chris Portfolio.
         </p>
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
